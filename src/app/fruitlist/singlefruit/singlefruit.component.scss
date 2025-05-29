@@ -63,6 +63,7 @@
             }
             >div>img{
                 height: 16px;
+                
             }
         }
 
@@ -82,7 +83,7 @@
         >div:nth-child(5) {
             border-radius: 8px;
             padding: 8px;
-            height: 25%;
+            height: 32%;
             width: 100%;
             background-color: #124658;
 
@@ -95,15 +96,16 @@
                 
                 
                 >input {
-                    height: 20px;
+                    height: 25px;
                     width: calc(100% - 20px);
                     background-color: #124658;
                     border: 0;
                     padding: 1px 8px 0px 8px;
                     border-bottom: 1px solid white;
-
+                    font-size: 16px;
                     &:focus {
                         outline: none;
+                        border-bottom: 1px solid #0A8DA6;
                     }
                 }
 
@@ -116,7 +118,7 @@
                     padding: 0;
                     
                     >img{
-                        height: 12px;
+                        height: 20px;
                         filter: invert(63%) sepia(50%) saturate(6850%) hue-rotate(331deg) brightness(105%) contrast(98%);
                         
                     }
